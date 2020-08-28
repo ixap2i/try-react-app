@@ -3,7 +3,8 @@
 }
 
 
-.o-movieContainer {
-    box-shadow: #151515 0 3 6;
-    display: flex;
+.o-movieWrapper {
+    display: inline-flex;
+    box-shadow: 0 1px 8px rgba(0,0,0,.1);
+
 }

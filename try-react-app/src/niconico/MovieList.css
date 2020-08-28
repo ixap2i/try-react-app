@@ -1,0 +1,16 @@
+.a-movieThumbnail {
+    width: 20vw;
+    height: 16vh;
+    background-color: #fff;
+    border: solid 1px #000;
+    border-radius: 3px;
+}
+
+.m-anchorBox {
+    color: #657586;
+}
+
+.o-movieAnchor {
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,9 @@
+.a-movie {
+    width: 350px;
+}
+
+
+.o-movieContainer {
+    box-shadow: #151515 0 3 6;
+    display: flex;
+}

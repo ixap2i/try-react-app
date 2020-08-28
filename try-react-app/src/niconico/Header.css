@@ -5,7 +5,6 @@ ul {
 
 li {
   list-style: none;
-  min-width: calc(2rem + 8px);
   border-right: 1px solid #555555;
 }
 
@@ -13,8 +12,16 @@ header {
   background: #252525;
   color: #fff;
   display: inline-flex;
-  padding: 0.5rem 0;
+  font-size: 18px;
   width: 100%;
+}
+
+header li {
+  padding: 0 0.5rem ;
+}
+
+.a-headerIcon {
+  width: 25px;
 }
 
 .header__menu {
@@ -23,6 +30,8 @@ header {
 
 .header__subMenu {
   justify-content: flex-end;
+  position: absolute;
+  right: 1em;
 }
 
 .header__subMenu .login {

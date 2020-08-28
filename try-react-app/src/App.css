@@ -1,3 +1,13 @@
+h2 {
+  color: #001835;
+  font-size: 20px;
+}
+
+h3 {
+  color: #939191;
+  font-size: 16px;
+}
+
 .App {
   text-align: center;
 }
@@ -14,7 +24,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #F4F4F4;
   min-height: 100vh;
   display: flex;
   flex-direction: column;

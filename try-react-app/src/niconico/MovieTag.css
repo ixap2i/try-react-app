@@ -1,0 +1,22 @@
+.a-tag.-icon {
+    color: #fff;
+    background-color: #8C0000;
+    border-radius: 20px;
+    width: 20px;
+}
+
+.a-movieTag {
+    padding: 0.2em 0.5em;
+    background-color: #fff;
+    border: solid 1px #707070;
+    border-radius: 17px;
+    color: #32475E;
+    position: relative;
+}
+
+.a-movieTag.-gray {
+    padding: 0.2em 0.5em;
+    background-color: #B2BAC2;
+    border: none;
+    color: #fff;
+}

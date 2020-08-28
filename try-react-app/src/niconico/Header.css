@@ -1,0 +1,33 @@
+ul {
+  display: flex;
+  margin: initial;
+}
+
+li {
+  list-style: none;
+  min-width: calc(2rem + 8px);
+  border-right: 1px solid #555555;
+}
+
+header {
+  background: #252525;
+  color: #fff;
+  display: inline-flex;
+  padding: 0.5rem 0;
+  width: 100%;
+}
+
+.header__menu {
+  justify-content: flex-start;
+}
+
+.header__subMenu {
+  justify-content: flex-end;
+}
+
+.header__subMenu .login {
+  color: #39C4C1;
+}
+.header__subMenu .saiyo {
+  color: #D9A300;
+}

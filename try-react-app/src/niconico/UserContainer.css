@@ -1,0 +1,55 @@
+.a-icon {
+    width: 52px;
+}
+
+.a-tag {
+    color: #006699;
+    margin: 0.3em;
+}
+
+.a-tag__box {
+    display: flex;
+    flex-grow: 2;
+    margin-top: 0.3em;
+}
+
+.a-tag.-name {
+    font-weight: bold;
+}
+
+.a-tag.-square {
+    border: solid 1px #006699;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+.a-tag.-movieInfo {
+    color: #657586;
+    margin: initial;
+}
+
+.a-tag.-movieInfo.-bold {
+    font-weight: bold;
+}
+
+.a-icon {
+
+}
+
+.a-icon.-desc {
+    color: #007CFF;
+    font-weight: bold;
+}
+.o-userInfo {
+    display: flex;
+}
+.o-userInfo__box {
+    display: flex;
+    flex-direction: column;
+}
+.o-userInfo__box.-movieInfo {
+    border-left: 1px solid #fff;
+    box-shadow: -1px 0 0 0 #e0e0e0;
+    min-width: 100px;
+    padding: 0 1em;
+}

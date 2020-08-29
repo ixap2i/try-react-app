@@ -9,24 +9,24 @@ import facebook from './facebook.svg';
 
 function MovieContainer() {
   return(
-    <div class="o-movieContainer">
-      <div class="m-movieInfoWrapper">
-        <section class="m-socialContent">
-          <img src={clock} class="a-toolIcon" alt="" />
-          <img src={directory} class="a-toolIcon" alt="" />
-          <img src={directory} class="a-toolIcon" alt="" />
+    <div className="o-movieContainer">
+      <div className="m-movieInfoWrapper">
+        <section className="m-socialContent">
+          <img src={clock} className="a-toolIcon" alt="" />
+          <img src={directory} className="a-toolIcon" alt="" />
+          <img src={directory} className="a-toolIcon" alt="" />
         </section>
-        <section class="m-socialContent">
-          <img src={line} class="a-toolIcon" alt="" />
-          <img src={twitter} class="a-toolIcon" alt="" />
-          <img src={facebook} class="a-toolIcon" alt="" />
+        <section className="m-socialContent">
+          <img src={line} className="a-toolIcon" alt="" />
+          <img src={twitter} className="a-toolIcon" alt="" />
+          <img src={facebook} className="a-toolIcon" alt="" />
         </section>      
       </div>
-      <section class="m-movieInfoWrapper">
-        <article class="m-commentList">
+      <section className="m-movieInfoWrapper">
+        <article className="m-commentList">
           コメント
         </article>
-        <article class="m-movieList">
+        <article className="m-movieList">
           動画リスト
         </article>  
       </section>

@@ -3,38 +3,38 @@ import './MovieList.css';
 
 function MovieList() {
   return(
-    <article class="m-anchorBox">
-      <div class="o-movieAnchor">
+    <article className="m-anchorBox">
+      <div className="o-movieAnchor">
           <div>
               次の動画
           </div>
-          <div class="o-movieAnchorAside">
+          <div className="o-movieAnchorAside">
               連続再生
-              <div class="a-toggle__wrapper">
-                <input type="checkbox" class="a-toggle" name="" value="0" />
-                <span class="a-toggleSwitch"></span>
+              <div className="a-toggle__wrapper">
+                <input type="checkbox" className="a-toggle" name="" value="0" />
+                <span className="a-toggleSwitch"></span>
               </div>
           </div>
       </div>
-      <div class="o-movieListThumbnail">
-          {/* <img class="a-movieThumbnail" alt="movie thumbnail" /> */}
-          <div class="a-movieThumbnail"></div>
-          <span class="a-title">■採用結果</span>
+      <div className="o-movieListThumbnail">
+          {/* <img className="a-movieThumbnail" alt="movie thumbnail" /> */}
+          <div className="a-movieThumbnail"></div>
+          <span className="a-title">■採用結果</span>
       </div>
-      <div class="o-movieListThumbnail">
-          {/* <img class="a-movieThumbnail" alt="movie thumbnail" /> */}
-          <div class="a-movieThumbnail"></div>
-          <span class="a-title">■採用結果</span>
+      <div className="o-movieListThumbnail">
+          {/* <img className="a-movieThumbnail" alt="movie thumbnail" /> */}
+          <div className="a-movieThumbnail"></div>
+          <span className="a-title">■採用結果</span>
       </div>
-      <div class="o-movieListThumbnail">
-          {/* <img class="a-movieThumbnail" alt="movie thumbnail" /> */}
-          <div class="a-movieThumbnail"></div>
-          <span class="a-title">■採用結果</span>
+      <div className="o-movieListThumbnail">
+          {/* <img className="a-movieThumbnail" alt="movie thumbnail" /> */}
+          <div className="a-movieThumbnail"></div>
+          <span className="a-title">■採用結果</span>
       </div>
-      <div class="o-movieListThumbnail">
-          {/* <img class="a-movieThumbnail" alt="movie thumbnail" /> */}
-          <div class="a-movieThumbnail"></div>
-          <span class="a-title">■採用結果</span>
+      <div className="o-movieListThumbnail">
+          {/* <img className="a-movieThumbnail" alt="movie thumbnail" /> */}
+          <div className="a-movieThumbnail"></div>
+          <span className="a-title">■採用結果</span>
       </div>
     </article>);
 }

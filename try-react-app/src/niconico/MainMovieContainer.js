@@ -5,8 +5,8 @@ import MovieContainer from './MovieContainer'
 
 function MainMovieContainer() {
   return(
-      <section class="o-movieWrapper">
-        <img src={movie_img} class="a-movie" alt="movie_img" />
+      <section className="o-movieWrapper">
+        <img src={movie_img} className="a-movie" alt="movie_img" />
         <MovieContainer />
       </section>);
 }

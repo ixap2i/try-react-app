@@ -5,20 +5,21 @@ import nico_mark from './nico_mark.png';
 function Header() {
   return (
     <header className="header">
-			<ul class="header__menu">
+			<ul className="header__menu">
 				<li>
-					<img src={nico_mark} class="a-headerIcon" alt="niconico" />
+					<img src={nico_mark} className="a-headerIcon" alt="niconico" />
 				</li>
-				{functionMenu}
+				{functionMenu.map((menu, idx) => (<li key={idx}>{menu}</li>))}
 			</ul>
 
-			<ul class="header__subMenu">
-				{functionSubMenu}
+			<ul className="header__subMenu">
+				{functionSubMenu.map((smenu, idx) => (<li key={idx} className={idx == 1 ? 'login' : 'saiyo'}>{smenu}</li>))}
+				<li>メニュー▼</li>
 			</ul>
     </header>
   );
 }
 
-const functionMenu = [<li>山下</li>, <li>経歴</li>, <li>開発</li>];
-const functionSubMenu = [<li class="login">ログイン</li>, <li class="saiyo">採用</li>, <li>メニュー▼</li>];
+const functionMenu = ['山下', '経歴', '開発'];
+const functionSubMenu = ['ログイン', '採用'];
 export default Header;

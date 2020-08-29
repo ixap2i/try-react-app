@@ -1,10 +1,12 @@
 .a-movie {
-    width: 350px;
-}
+    width: 48vw;
+} 
 
 
 .o-movieWrapper {
     display: inline-flex;
     box-shadow: 0 1px 8px rgba(0,0,0,.1);
-
+    margin-left: 123px;
+    overflow: scroll;
+    height: 56vh;
 }

@@ -4,9 +4,15 @@ h2 {
 }
 
 h3 {
-  color: #939191;
+  color: #f4f4f4;
   font-size: 16px;
 }
+
+.App {
+  background-color: #F4F4F4;
+  padding-bottom: 300px;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;

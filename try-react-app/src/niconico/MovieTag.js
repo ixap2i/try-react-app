@@ -1,15 +1,19 @@
 import React from 'react';
-
+import hyaku_icon from './hyaku.svg';
 import './MovieTag.css';
 
 function MovieTag() {
-  return(<div id="tag">
-    <span class="a-movieTag -gray">タグ編集</span>
-      {movieTag.map((tagInfo) => (<MovieTags value={tagInfo} />))}
-    </div>);
+  return(
+    <div class="o-tagContainer">
+      <span class="a-movieTag -gray">タグ編集</span>
+      <div class="o-tagWrapper">
+        {movieTag.map((tagInfo) => (<MovieTags value={tagInfo} />))}
+      </div>
+    </div>
+);
 }
 
-const movieTag = ['応募者', '山下 茜子', '東京福祉専門学校', 'Webエンジニア'];
+const movieTag = ['応募者', '山下 茜子', '東京福祉専門学校', 'Webエンジニア', '応募者', '山下 茜子', '東京福祉専門学校', 'Webエンジニア'];
 
-const MovieTags = ({value}) => (<span class="a-movieTag">{value}<span class="a-tag -icon">百</span></span>);
+const MovieTags = ({value}) => (<span class="a-movieTag">{value}<img src={hyaku_icon} class="a-tag -icon" alt="" /></span>);
 export default MovieTag;

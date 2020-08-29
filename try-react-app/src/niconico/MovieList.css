@@ -1,9 +1,55 @@
 .a-movieThumbnail {
-    width: 20vw;
-    height: 16vh;
-    background-color: #fff;
+    width: 8vw;
+    height: 10vh;
+    background-color: #000;
     border: solid 1px #000;
     border-radius: 3px;
+}
+
+.a-title {
+    color: #069;
+}
+
+.a-toggle {
+    appearance: initial;
+    background-color: #657586;
+    height: 1rem;
+    width: 2rem;
+    position: relative;
+    border-radius: 15px;
+}
+
+input:checked .a-toggleSwitch::before {
+    background-color: red;
+
+}
+
+.a-toggleSwitch {
+    position: relative;
+}
+
+.a-toggleSwitch::before {
+    position: absolute;
+    content: "";
+    height: calc(1em - 0.2em);
+    width: 1em;
+    border-radius: 1em;
+    left: 6px;
+    background-color: #fff;
+    transition: .4s;
+    top: -28px;
+}
+
+.a-toggle__wrapper {
+    height: 1rem;
+    width: 2rem;
+}
+
+.a-toggle__wrapper::before {
+    background-color: #fff;
+    height: 30px;
+    width: 30px;
+    position: absolute;
 }
 
 .m-anchorBox {
@@ -13,4 +59,16 @@
 .o-movieAnchor {
     display: flex;
     justify-content: space-between;
+    line-height: 34px;
+    margin: 0 8px;
+}
+
+.o-movieAnchorAside {
+    display: flex;
+}
+
+.o-movieListThumbnail {
+    align-items: center;
+    margin: 4px 8px;
+    display: inline-flex;
 }

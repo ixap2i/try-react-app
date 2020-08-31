@@ -1,3 +1,25 @@
+.a-movieTitle {
+    color: #001835;
+    font-size: 20px;
+}
+
+.a-movieSubTitle {
+    color: #99a3ad;
+    font-size: 16px;  
+}
+
+.a-userGroupName {
+    color: #006699;
+    font-weight: 700;
+    font-size: 16px;
+    margin: 8px 0;
+}
+
+.a-movieGroupIcon {
+    vertical-align: middle;
+    width: 19px;
+}
+
 .a-icon {
     width: 52px;
 }
@@ -66,7 +88,6 @@
     flex-direction: column;
 }
 
-
 .o-userInfoWrapper {
     display: flex;
     text-align: initial;
@@ -76,6 +97,7 @@
     margin-left: 123px;
     text-align: left;
 }
+
 .o-userInfo__box.-movieInfo {
     border-left: 1px solid #fff;
     box-shadow: -1px 0 0 0 #e0e0e0;

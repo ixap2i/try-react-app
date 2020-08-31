@@ -1,14 +1,15 @@
 import React from 'react';
 import user_icon from './user_icon.png';
 import follow_icon from './follow_icon.svg';
+import list from './list.svg';
 
 import './UserContainer.css';
 
 function UserContainer() {
   return(<div className="o-titleWrapper">
-      <span>{renderGroup(movieInfo)}</span>
-      <h2>{renderTitle(movieInfo)}</h2>
-      <h3>{renderSubTitle(movieInfo)}</h3>
+      <div className="a-userGroupName"><img src={list} className="a-movieGroupIcon" alt="heart movie icon" />{renderGroup(movieInfo)}</div>
+      <h2 className="a-movieTitle">{renderTitle(movieInfo)}</h2>
+      <h3 className="a-movieSubTitle">{renderSubTitle(movieInfo)}</h3>
        {renderUserInfo(user)}
     </div>);
 }

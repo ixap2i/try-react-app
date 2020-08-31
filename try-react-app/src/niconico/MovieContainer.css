@@ -26,7 +26,7 @@
 
 .m-movieList {
     color: #657586;
-    border-bottom: solid 3px #E5E5E5;
+    border-bottom: solid 3px #007CFF;
     line-height: 2rem;
     text-align: center;
     width: 24vw;
@@ -34,7 +34,7 @@
 
 .m-commentList {
     color: #657586;
-    border-bottom: solid 3px #007CFF;
+    border-bottom: solid 3px #E5E5E5;
     line-height: 2rem;
     text-align: center;
     width: 24vw;

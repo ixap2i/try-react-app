@@ -5,33 +5,39 @@ ul {
 
 li {
   list-style: none;
-  border-right: 1px solid #555555;
 }
 
 header {
   background: #252525;
   color: #fff;
   display: inline-flex;
-  font-size: 18px;
+  font-size: 12px;
   width: 100%;
 }
 
 header li {
-  padding: 0 0.5rem ;
+  padding: 0 0.5rem;
+  border-right: 1px solid #555555;
+}
+
+header li:nth-child(1) {
+  border-right: initial;
 }
 
 .a-headerIcon {
   width: 25px;
+  margin-top: 4px;
 }
 
 .header__menu {
   justify-content: flex-start;
+  align-items: center;
 }
 
 .header__subMenu {
   justify-content: flex-end;
-  position: absolute;
   right: 1em;
+  align-items: center;
 }
 
 .header__subMenu .login {

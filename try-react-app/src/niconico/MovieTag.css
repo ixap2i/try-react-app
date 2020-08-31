@@ -6,7 +6,7 @@
 
 .a-movieTag {
     display: inline-block;
-    padding: 0.2em 0.5em;
+    padding: 0.4em 0.5em;
     background-color: #fff;
     border: 1px solid #e5e8ea;
     border-radius: 17px;
@@ -24,7 +24,7 @@
     color: #fff;
     height: calc(1rem + 5px);
     margin-right: 2rem;
-    margin-top: 0.6em;
+    margin-top: 0.8em;
 }
 
 .o-tagContainer {

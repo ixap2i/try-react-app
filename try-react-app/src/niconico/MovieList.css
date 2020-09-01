@@ -21,11 +21,6 @@
     border-radius: 15px;
 }
 
-input:checked .a-toggleSwitch::before {
-    background-color: red;
-
-}
-
 .a-toggleSwitch {
     position: relative;
 }
@@ -39,7 +34,8 @@ input:checked .a-toggleSwitch::before {
     left: 6px;
     background-color: #fff;
     transition: .4s;
-    top: -28px;
+    top: -14px;
+    left: 1px;
 }
 
 .a-toggle__wrapper {

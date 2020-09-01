@@ -5,17 +5,17 @@ import nico_mark from './nico_mark.png';
 function Header() {
   return (
     <header className="header">
-			<ul className="header__menu">
+			<nav className="header__menu">
 				<li>
 					<img src={nico_mark} className="a-headerIcon" alt="niconico" />
 				</li>
 				{functionMenu.map((menu, idx) => (<li key={idx}>{menu}</li>))}
-			</ul>
+			</nav>
 
-			<ul className="header__subMenu">
+			<nav className="header__subMenu">
 				{functionSubMenu.map((smenu, idx) => (<li key={idx} className={idx == 1 ? 'login' : 'saiyo'}>{smenu}</li>))}
 				<li>メニュー▼</li>
-			</ul>
+			</nav>
     </header>
   );
 }

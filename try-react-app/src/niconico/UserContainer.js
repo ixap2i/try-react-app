@@ -61,13 +61,13 @@ function renderUserInfo(user) {
       <span className="a-icon -desc">フォロー</span>      
     </div>
 
-    <div className="o-userInfo">
+    <nav className="o-userInfo">
       {movieInfo.saisei}
       {movieInfo.comment}
       {movieInfo.mylist}
       {movieInfo.junle}
       {movieInfo.ranking}
-    </div>
+    </nav>
   </div>;
 }
 export default UserContainer;

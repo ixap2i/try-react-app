@@ -11,7 +11,7 @@ function MovieList() {
           <div className="o-movieAnchorAside">
               連続再生
               <div className="a-toggle__wrapper">
-                <input type="checkbox" className="a-toggle" name="" value="0" />
+                <div className="a-toggle"></div>
                 <span className="a-toggleSwitch"></span>
               </div>
           </div>

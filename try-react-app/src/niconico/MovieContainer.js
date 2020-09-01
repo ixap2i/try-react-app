@@ -17,8 +17,8 @@ function MovieContainer() {
       <div className="m-movieInfoWrapper">
         <section className="m-socialContent">
           <img src={clock} className="a-toolIcon" alt="clock icon" />
-          <a href="https://letterneginr.hateblo.jp/" target="_blank"><img src={blog} data-tip data-for='blog' className="a-toolIcon -blog" alt="" /></a>
-          <a href="mailto:ayamashita124@gmail.com" className=""><img src={mail} data-tip data-for='mail' className="a-toolIcon" alt="mail icon" /></a>
+          <a href="https://letterneginr.hateblo.jp/" rel="noopener" target="_blank"><img src={blog} data-tip data-for='blog' className="a-toolIcon -blog" alt="" /></a>
+          <a href="mailto:ayamashita124@gmail.com" rel="noopener" className=""><img src={mail} data-tip data-for='mail' className="a-toolIcon" alt="mail icon" /></a>
           <ReactTooltip id='blog' aria-haspopup='true' >
             <p>ブログページです（エンジニアリング中心）</p>
           </ReactTooltip>
@@ -27,13 +27,13 @@ function MovieContainer() {
           </ReactTooltip>
         </section>
         <section className="m-socialContent"> 
-          <a href="https://social-plugins.line.me/lineit/share?url=https%3A%2F%2Flocalhost%3A3000" target="_blank" data-tip data-for='line'>
+          <a href="https://social-plugins.line.me/lineit/share?url=https%3A%2F%2Flocalhost%3A3000" target="_blank" data-tip data-for='line' rel="noopener">
             <img src={line} className="a-toolIcon" alt="line icon" />
           </a>
-          <a href="http://twitter.com/share?url=https%3A%2F%2Flocalhost%3A3000&text=ニコニコ動画風アプリ by ixap2i&hashtags=React.js,ニコニコ動画風" target="_blank" data-tip data-for='twitter'>
+          <a href="http://twitter.com/share?url=https%3A%2F%2Flocalhost%3A3000&text=ニコニコ動画風アプリ by ixap2i&hashtags=React.js,ニコニコ動画風" target="_blank" data-tip data-for='twitter' rel="noopener">
             <img src={twitter} className="a-toolIcon" alt="twitter icon" />
           </a>
-          <a href="https://www.facebook.com/sharer/sharer.php?u=https://localhost:3000" target="_blank" data-tip data-for='facebook'>
+          <a href="https://www.facebook.com/sharer/sharer.php?u=https://localhost:3000" target="_blank" data-tip data-for='facebook' rel="noopener">
             <img src={facebook} className="a-toolIcon" alt="facebook icon" />
           </a>
           <ReactTooltip id='line' aria-haspopup='true'>

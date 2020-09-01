@@ -1,10 +1,10 @@
 .a-movieTitle {
-    color: #001835;
+    color: #00070f;
     font-size: 20px;
 }
 
 .a-movieSubTitle {
-    color: #99a3ad;
+    color: #636970;
     font-size: 16px;  
 }
 
@@ -36,7 +36,7 @@
 }
 
 .a-icon.-desc {
-    color: #007CFF;
+    color: #0466cf;
     font-weight: bold;
     font-size: 12px;
     display: inline-block;
@@ -65,7 +65,7 @@
 }
 
 .a-tag.-movieInfo {
-    color: #657586;
+    color: #4a5561;
     margin: auto 0;
 }
 

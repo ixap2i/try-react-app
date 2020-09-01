@@ -2,7 +2,7 @@ import React from 'react';
 import './MovieContainer.css'
 import MovieList from './MovieList.js';
 import clock from './clock.svg';
-import directory from './directory.svg';
+import blog from './blog.svg';
 import mail from './mail.svg';
 import line from './line.svg';
 import twitter from './twitter.svg';
@@ -13,9 +13,9 @@ function MovieContainer() {
     <div className="o-movieContainer">
       <div className="m-movieInfoWrapper">
         <section className="m-socialContent">
-          <img src={clock} className="a-toolIcon gradient-path" alt="clock icon" />
-          <img src={directory} className="a-toolIcon" alt="" />
-          <img src={mail} className="a-toolIcon" alt="" />
+          <img src={clock} className="a-toolIcon" alt="clock icon" />
+          <a href="https://letterneginr.hateblo.jp/" target="_blank"><img src={blog} className="a-toolIcon -blog" alt="" /></a>
+          <a href="mailto:ayamashita124@gmail.com" className=""><img src={mail} className="a-toolIcon" alt="mail icon" /></a>
         </section>
         <section className="m-socialContent">
           <img src={line} className="a-toolIcon" alt="line icon" />

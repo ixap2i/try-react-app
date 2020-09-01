@@ -17,8 +17,8 @@ function MovieContainer() {
       <div className="m-movieInfoWrapper">
         <section className="m-socialContent">
           <img src={clock} className="a-toolIcon" alt="clock icon" />
-          <a href="https://letterneginr.hateblo.jp/" rel="noopener" target="_blank"><img src={blog} data-tip data-for='blog' className="a-toolIcon -blog" alt="" /></a>
-          <a href="mailto:ayamashita124@gmail.com" rel="noopener" className=""><img src={mail} data-tip data-for='mail' className="a-toolIcon" alt="mail icon" /></a>
+          <a href="https://letterneginr.hateblo.jp/" rel="noopener" target="_blank"><img src={blog} data-tip data-for='blog' className="a-toolIcon -blog" alt="blog icon" /></a>
+          <a href="mailto:ayamashita124@gmail.com" rel="noopener"><img src={mail} data-tip data-for='mail' className="a-toolIcon" alt="mail icon" /></a>
           <ReactTooltip id='blog' aria-haspopup='true' >
             <p>ブログページです（エンジニアリング中心）</p>
           </ReactTooltip>

@@ -47,7 +47,7 @@ function renderUserInfo(user) {
   return <div className="o-userInfoWrapper">
     <article className="o-userInfo">
     <img src={user_icon} className="a-icon -user" alt={user.firstName + user.lastName} />
-    <div>
+    <div className="o-userInfo__box -movieInfo">
       <span className="a-tag -name">{user.nickName}</span>
       <div className="o-userInfo">
         <span className="a-tag -square">チャンネル</span>

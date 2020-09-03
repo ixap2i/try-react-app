@@ -3,6 +3,11 @@
     margin-right: 3px;
 }
 
+.a-toolIcon.-clock {
+    width: 27px;
+    margin-right: 8px;
+}
+
 .a-toolIcon .-blog {
     margin: 1px 3px;
 }

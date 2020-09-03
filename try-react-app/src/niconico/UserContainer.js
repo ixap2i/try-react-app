@@ -13,7 +13,8 @@ function UserContainer() {
        {renderUserInfo(user)}
     </div>);
 }
-
+// padding-left: 24px;
+// background: linear-gradient(90deg,hsla(0,0%,95.7%,0),#f4f4f4 16%);
 const user = {
   nickName: 'ixap2i',
   firstName: 'Akane',
@@ -23,7 +24,7 @@ const user = {
 
 const movieInfo = {
   title: '【フロントエンドエンジニア】■1週間でReact.jsを勉強してポートフォリオを作ってみた',
-  subTitle: '▷1週間でどれだけできるのか〜説明文です',
+  subTitle: '▷1週間でReact.jsの環境構築、ニコニコ動画の再生画面風ポートフォリオを作成しました。素材はsvgで作成し、軽量化と、色の変更やアニメーションなどバリエーションのある表現を考え選択しました。\nThree.jsは動画部分に使用し、canvasにsvgの描画を可能にしています。',
   group: 'ノリノリでWebコーディングする会',
   saisei: <div className="o-userInfo__box -movieInfo"><span className="a-tag -movieInfo">再生数</span><span className="a-tag -movieInfo -bold">252,525</span></div>,
   comment: <div className="o-userInfo__box -movieInfo"><span className="a-tag -movieInfo">コメント</span><span className="a-tag -movieInfo -bold">252,525</span></div>,
@@ -58,7 +59,7 @@ function renderUserInfo(user) {
 
     <div className="o-userInfo__box -movieInfo">
       <img src={follow_icon} className="a-icon -follow" alt="" />
-      <span className="a-icon -desc">フォロー</span>      
+      <span className=" -desc">フォロー</span>      
     </div>
 
     <nav className="o-userInfo">

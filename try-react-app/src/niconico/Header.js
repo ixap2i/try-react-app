@@ -1,6 +1,6 @@
 import React from 'react';
 import './Header.css';
-import nico_mark from './nico_mark.png';
+import nico_mark from './heart_movie.svg';
 
 function Header() {
   return (

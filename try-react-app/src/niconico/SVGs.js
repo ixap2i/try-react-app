@@ -7,7 +7,7 @@ import flower from './flower.svg';
 import path from './path.svg';
 import me from './me.svg';
 
-const colors = ['#21242d', '#ea5158', '#0d4663', '#ffbcb7', '#2d4a3e', '#8bd8d2']
+const colors = ['#21242d', '#ea5158', '#0d4663']
 
 const Scene = React.memo(({ urls }) => {
   const svgs = useLoader(SVGLoader, urls)

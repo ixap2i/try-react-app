@@ -59,7 +59,7 @@ function renderUserInfo(user) {
 
     <div className="o-userInfo__box -movieInfo">
       <img src={follow_icon} className="a-icon -follow" alt="" />
-      <span className=" -desc">フォロー</span>      
+      <span className="a-icon -desc">フォロー</span>      
     </div>
 
     <nav className="o-userInfo">

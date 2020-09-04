@@ -25,19 +25,22 @@ header li:nth-child(1) {
 }
 
 .a-headerIcon {
-  width: 25px;
-  margin-top: 4px;
+  width: 17px;
+  margin-top: 3px;
 }
 
 .header__menu {
   justify-content: flex-start;
   align-items: center;
+  margin: 0.4em;
 }
 
 .header__subMenu {
   justify-content: flex-end;
   right: 1em;
   align-items: center;
+  position: absolute;
+  margin-top: 7px;
 }
 
 .header__subMenu .login {

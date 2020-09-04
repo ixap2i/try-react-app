@@ -41,6 +41,8 @@
 .a-toggle__wrapper {
     height: 1rem;
     width: 2rem;
+    margin-top: 8px;
+    margin-left: 4px;
 }
 
 .a-toggle__wrapper::before {

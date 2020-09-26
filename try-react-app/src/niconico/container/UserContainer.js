@@ -14,8 +14,7 @@ function UserContainer() {
        {renderUserInfo(user)}
     </div>);
 }
-// padding-left: 24px;
-// background: linear-gradient(90deg,hsla(0,0%,95.7%,0),#f4f4f4 16%);
+
 const user = {
   nickName: 'ixap2i',
   firstName: 'Akane',

@@ -1,8 +1,8 @@
 import React, { Suspense, useState, useEffect, useMemo } from 'react'
 
 import { Canvas, useLoader } from 'react-three-fiber'
-import { useTransition, useSpring, a } from 'react-spring/three'
-import { SVGLoader } from 'three/examples/jsm/loaders/SVGLoader'
+import { useTransition, useSpring, a } from 'react-spring'
+import { SVGLoader } from 'three/examples/jsm/loaders/SVGLoader.js'
 
 import flower from './icon_assets/flower.svg';
 import path from './icon_assets/path.svg';

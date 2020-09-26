@@ -1,9 +1,9 @@
 import React from 'react';
 
 import './Main.css';
-import UserContainer from './UserContainer.js';
-import MovieTag from './MovieTag.js';
-import MainMovieContainer from './MainMovieContainer.js';
+import UserContainer from './container/UserContainer.js';
+import MainMovieContainer from './container/MainMovieContainer.js';
+import MovieTag from './components/MovieTag.js';
 
 function Main() {
   return (
@@ -14,13 +14,4 @@ function Main() {
     </div>
   );
 }
-
-// function createTable() {
-//   return React.createElement(
-//     'table',
-//     {className: 'o-table'},
-//     'Hello World!!'
-//   );
-// }
-
 export default Main;

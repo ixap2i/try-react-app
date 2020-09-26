@@ -1,6 +1,6 @@
 import React from 'react';
-import hyaku_icon from './hyaku.svg';
-import hatena_icon from './hatena.svg';
+import hyaku_icon from '../icon_assets/hyaku.svg';
+import hatena_icon from '../icon_assets/hatena.svg';
 import './MovieTag.css';
 
 function MovieTag() {

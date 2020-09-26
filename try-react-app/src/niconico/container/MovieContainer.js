@@ -1,13 +1,13 @@
 import React from 'react';
 import './MovieContainer.css'
-import MovieList from './MovieList.js';
+import MovieList from '../components/MovieList.js';
 
-import clock from './clock.svg';
-import blog from './blog.svg';
-import mail from './mail.svg';
-import line from './line.svg';
-import twitter from './twitter.svg';
-import facebook from './facebook.svg';
+import clock from '../icon_assets/clock.svg';
+import blog from '../icon_assets/blog.svg';
+import mail from '../icon_assets/mail.svg';
+import line from '../icon_assets/line.svg';
+import twitter from '../icon_assets/twitter.svg';
+import facebook from '../icon_assets/facebook.svg';
 
 import ReactTooltip from 'react-tooltip';
   

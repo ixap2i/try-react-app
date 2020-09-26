@@ -3,9 +3,9 @@ import { Canvas, useLoader } from 'react-three-fiber'
 import { useTransition, useSpring, a } from 'react-spring/three'
 import { SVGLoader } from 'three/examples/jsm/loaders/SVGLoader'
 
-import flower from './flower.svg';
-import path from './path.svg';
-import me from './me.svg';
+import flower from './icon_assets/flower.svg';
+import path from './icon_assets/path.svg';
+import me from './icon_assets/me.svg';
 
 const colors = ['#21242d', '#ea5158', '#0d4663']
 

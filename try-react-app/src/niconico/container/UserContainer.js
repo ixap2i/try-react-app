@@ -1,7 +1,7 @@
 import React from 'react';
-import user_icon from './user_icon.png';
-import follow_icon from './follow_icon.svg';
-import list from './list.svg';
+import user_icon from '../icon_assets/user_icon.png';
+import follow_icon from '../icon_assets/follow_icon.svg';
+import list from '../icon_assets/list.svg';
 
 import './UserContainer.css';
 

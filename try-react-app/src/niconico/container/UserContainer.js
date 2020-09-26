@@ -1,9 +1,10 @@
 import React from 'react';
-import user_icon from '../icon_assets/user_icon.png';
+import './UserContainer.css';
+
+import UserIcon from '../icon_assets/user_icon.png';
 import follow_icon from '../icon_assets/follow_icon.svg';
 import list from '../icon_assets/list.svg';
 
-import './UserContainer.css';
 
 function UserContainer() {
   return(<div className="o-titleWrapper">
@@ -47,7 +48,7 @@ function renderGroup(movieInfo) {
 function renderUserInfo(user) {
   return <div className="o-userInfoWrapper">
     <article className="o-userInfo">
-    <img src={user_icon} className="a-icon -user" alt={user.firstName + user.lastName} />
+    <img src={UserIcon} className="a-icon -user" alt={user.firstName + user.lastName} />
     <div className="o-userInfo__box -movieInfo">
       <span className="a-tag -name">{user.nickName}</span>
       <div className="o-userInfo">

@@ -39,5 +39,4 @@ const movieTag = {
   other_tag4: <span className="a-movieTag">Three.js<img src={hatena_icon} className="a-tag -icon" alt="" /></span>
 };
 
-// const MovieTags = ({value}) => ({value});
 export default MovieTag;

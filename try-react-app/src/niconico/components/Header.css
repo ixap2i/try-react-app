@@ -29,13 +29,13 @@ header li:nth-child(1) {
   margin-top: 3px;
 }
 
-.header__menu {
+.o-header__menu {
   justify-content: flex-start;
   align-items: center;
   margin: 0.4em;
 }
 
-.header__subMenu {
+.o-header__subMenu {
   justify-content: flex-end;
   right: 1em;
   align-items: center;
@@ -43,9 +43,9 @@ header li:nth-child(1) {
   margin-top: 7px;
 }
 
-.header__subMenu .login {
+.o-header__subMenu .login {
   color: #39C4C1;
 }
-.header__subMenu .saiyo {
+.o-header__subMenu .saiyo {
   color: #D9A300;
 }

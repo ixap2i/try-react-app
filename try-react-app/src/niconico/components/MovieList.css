@@ -2,7 +2,6 @@
   height: 8vh;
   width: 10vw;
   background-color: #000;
-  border: solid 1px #000;
   border-radius: 3px;
 }
 
@@ -56,14 +55,14 @@
   color: #657586;
 }
 
-.o-movieAnchor {
+.o-movieSideMenu {
   display: flex;
   justify-content: space-between;
   line-height: 34px;
   margin: 0 8px;
 }
 
-.o-movieAnchorAside {
+.o-movieSideMenuAside {
   display: flex;
 }
 

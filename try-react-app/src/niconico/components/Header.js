@@ -4,14 +4,14 @@ import nico_mark from '../icon_assets/heart_movie.svg';
 
 function Header() {
   return (
-    <header className="header">
-			<ul className="header__menu">
+    <header className="o-header">
+			<ul className="o-header__menu">
 				<li>
 					<img src={nico_mark} className="a-headerIcon" alt="niconico" />
 				</li>
 				{functionMenu.map((menu, idx) => (<li key={idx}>{menu}</li>))}
 			</ul>
-			<ul className="header__subMenu">
+			<ul className="o-header__subMenu">
 				{functionSubMenu.map((smenu, idx) => (<li key={idx} className={idx == 1 ? 'login' : 'saiyo'}>{smenu}</li>))}
 				<li>メニュー▼</li>
 			</ul>

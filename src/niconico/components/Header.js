@@ -1,3 +1,4 @@
+// @ts-nocheck
 import React from 'react';
 import './Header.css';
 import nico_mark from '../icon_assets/heart_movie.svg';

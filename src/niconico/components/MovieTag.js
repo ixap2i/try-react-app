@@ -1,3 +1,4 @@
+// @ts-nocheck
 import React from 'react';
 import hyaku_icon from '../icon_assets/hyaku.svg';
 import hatena_icon from '../icon_assets/hatena.svg';

@@ -1,3 +1,4 @@
+// @ts-nocheck
 import React from 'react';
 import './MainMovieContainer.css'
 import MovieContainer from './MovieContainer'

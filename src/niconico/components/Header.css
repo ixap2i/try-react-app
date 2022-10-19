@@ -1,0 +1,51 @@
+ul {
+  display: flex;
+  margin: initial;
+}
+
+li {
+  list-style: none;
+}
+
+header {
+  background: #252525;
+  color: #fff;
+  display: inline-flex;
+  font-size: 12px;
+  width: 100%;
+}
+
+header li {
+  padding: 0 0.5rem;
+  border-right: 1px solid #555555;
+}
+
+header li:nth-child(1) {
+  border-right: initial;
+}
+
+.a-headerIcon {
+  width: 17px;
+  margin-top: 3px;
+}
+
+.o-header__menu {
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0.4em;
+}
+
+.o-header__subMenu {
+  justify-content: flex-end;
+  right: 1em;
+  align-items: center;
+  position: absolute;
+  margin-top: 7px;
+}
+
+.o-header__subMenu .login {
+  color: #39C4C1;
+}
+.o-header__subMenu .saiyo {
+  color: #D9A300;
+}

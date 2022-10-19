@@ -1,0 +1,50 @@
+.a-toolIcon {
+    width: 30px;
+    margin-right: 3px;
+}
+
+.a-toolIcon.-clock {
+    width: 27px;
+    margin-right: 8px;
+}
+
+.a-toolIcon .-blog {
+    margin: 1px 3px;
+}
+
+.o-movieContainer {
+    background-color: #fff;
+    width: 29vw;
+    overflow: scroll;
+}
+
+.m-socialContent {
+    margin: 8px;
+}
+
+.m-toolContent {
+    margin: 8px;
+}
+
+.m-movieInfoWrapper {
+    border-bottom: solid 1px #E5E5E5;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.m-movieList {
+    color: #657586;
+    border-bottom: solid 3px #007CFF;
+    line-height: 2rem;
+    text-align: center;
+    width: 24vw;
+}
+
+.m-commentList {
+    color: #657586;
+    border-bottom: solid 3px #E5E5E5;
+    line-height: 2rem;
+    text-align: center;
+    width: 24vw;
+}

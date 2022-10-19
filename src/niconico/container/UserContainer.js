@@ -19,7 +19,7 @@ const user = {
   nickName: 'ixap2i',
   firstName: 'Akane',
   lastName: 'Yamashita',
-  imageTag: <img src="http://placehold.jp/99ccff/003366/150x150.png?text=Test%20image" alt="Test image" />
+  imageTag: '<img src="http://placehold.jp/99ccff/003366/150x150.png?text=Test%20image">'
 };
 
 const movieInfo = {
@@ -30,7 +30,7 @@ const movieInfo = {
   comment: <div className="o-userInfo__box -movieInfo"><span className="a-tag -movieInfo">コメント</span><span className="a-tag -movieInfo -bold">252,525</span></div>,
   mylist: <div className="o-userInfo__box -movieInfo"><span className="a-tag -movieInfo">マイリスト数</span><span className="a-tag -movieInfo -bold">252,525</span></div>,
   junle: <div className="o-userInfo__box -movieInfo"><span className="a-tag -movieInfo">ジャンル</span><span className="a-tag -movieInfo -bold">プログラミング</span></div>,
-  ranking: <div className="o-userInfo__box -movieInfo"><span className="a-tag -movieInfo">ランキング最高順位</span><span className="a-tag -movieInfo -bold">1位</span></div>,  
+  ranking: <div className="o-userInfo__box -movieInfo"><span className="a-tag -movieInfo">ランキング最高順位</span><span className="a-tag -movieInfo -bold">1位</span></div>,
 };
 
 function renderTitle(movieInfo) {
@@ -59,7 +59,7 @@ function renderUserInfo(user) {
 
     <div className="o-userInfo__box -movieInfo">
       <img src={follow_icon} className="a-icon -follow" alt="" />
-      <span className="a-icon -desc">フォロー</span>      
+      <span className="a-icon -desc">フォロー</span>
     </div>
 
     <nav className="o-userInfo">

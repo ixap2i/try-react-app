@@ -10,15 +10,15 @@ import twitter from '../icon_assets/twitter.svg';
 import facebook from '../icon_assets/facebook.svg';
 
 import ReactTooltip from 'react-tooltip';
-  
+
 function MovieContainer() {
   return(
     <div className="o-movieContainer">
       <div className="m-movieInfoWrapper">
         <section className="m-socialContent">
           <img src={clock} className="a-toolIcon -clock" data-tip data-for='clock' alt="clock icon" />
-          <a href="https://letterneginr.hateblo.jp/" rel="noopener" target="_blank"><img src={blog} data-tip data-for='blog' className="a-toolIcon -blog" alt="blog icon" /></a>
-          <a href="mailto:ayamashita124@gmail.com" rel="noopener"><img src={mail} data-tip data-for='mail' className="a-toolIcon" alt="mail icon" /></a>
+          <a href="https://letterneginr.hateblo.jp/" rel="noopener noreferrer" target="_blank"><img src={blog} data-tip data-for='blog' className="a-toolIcon -blog" alt="blog icon" /></a>
+          <a href="mailto:ayamashita124@gmail.com" rel="noopener noreferrer"><img src={mail} data-tip data-for='mail' className="a-toolIcon" alt="mail icon" /></a>
           <ReactTooltip id='clock' aria-haspopup='true'>
             <div id='clockInner'></div>
           </ReactTooltip>
@@ -29,14 +29,14 @@ function MovieContainer() {
             <p>製作者にメールを送れます（メーラーが立ち上がります）</p>
           </ReactTooltip>
         </section>
-        <section className="m-socialContent"> 
-          <a href="https://social-plugins.line.me/lineit/share?url=https%3A%2F%2Flocalhost%3A3000" target="_blank" data-tip data-for='line' rel="noopener">
+        <section className="m-socialContent">
+          <a href="https://social-plugins.line.me/lineit/share?url=https%3A%2F%2Flocalhost%3A3000" target="_blank" data-tip data-for='line' rel="noopener noreferrer">
             <img src={line} className="a-toolIcon" alt="line icon" />
           </a>
-          <a href="http://twitter.com/share?url=https%3A%2F%2Flocalhost%3A3000&text=ニコニコ動画風アプリ by ixap2i&hashtags=React.js,ニコニコ動画風" target="_blank" data-tip data-for='twitter' rel="noopener">
+          <a href="http://twitter.com/share?url=https%3A%2F%2Flocalhost%3A3000&text=ニコニコ動画風アプリ by ixap2i&hashtags=React.js,ニコニコ動画風" target="_blank" data-tip data-for='twitter' rel="noopener noreferrer">
             <img src={twitter} className="a-toolIcon" alt="twitter icon" />
           </a>
-          <a href="https://www.facebook.com/sharer/sharer.php?u=https://localhost:3000" target="_blank" data-tip data-for='facebook' rel="noopener">
+          <a href="https://www.facebook.com/sharer/sharer.php?u=https://localhost:3000" target="_blank" data-tip data-for='facebook' rel="noopener noreferrer">
             <img src={facebook} className="a-toolIcon" alt="facebook icon" />
           </a>
           <ReactTooltip id='line' aria-haspopup='true'>
@@ -48,7 +48,7 @@ function MovieContainer() {
           <ReactTooltip id='facebook' aria-haspopup='true'>
             <p>facebookで共有できます（ログインすると投稿画面に移ります）</p>
           </ReactTooltip>
-        </section>      
+        </section>
       </div>
       <section className="m-movieInfoWrapper">
         <article className="m-commentList">
@@ -56,7 +56,7 @@ function MovieContainer() {
         </article>
         <article className="m-movieList">
           動画リスト
-        </article>  
+        </article>
       </section>
       <MovieList />
     </div>);

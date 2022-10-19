@@ -12,7 +12,7 @@ function Header() {
 				{functionMenu.map((menu, idx) => (<li key={idx}>{menu}</li>))}
 			</ul>
 			<ul className="o-header__subMenu">
-				{functionSubMenu.map((smenu, idx) => (<li key={idx} className={idx == 1 ? 'login' : 'saiyo'}>{smenu}</li>))}
+				{functionSubMenu.map((smenu, idx) => (<li key={idx} className={idx === 1 ? 'login' : 'saiyo'}>{smenu}</li>))}
 				<li>メニュー▼</li>
 			</ul>
     </header>
